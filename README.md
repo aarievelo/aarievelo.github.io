@@ -34,7 +34,7 @@ The website has a modern, slightly maximalist aesthetic with the following desig
 
 ### Viewing the Website
 
-You can visit the website at: [https://username.github.io](https://username.github.io)
+You can visit the website at: [https://aarievelo.github.io](https://aarievelo.github.io)
 
 ### Setting Up Locally
 
@@ -42,11 +42,11 @@ If you want to run the website locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/username.github.io.git
+    git clone https://github.com/aarievelo/aarievelo.github.io.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd username.github.io
+    cd aarievelo.github.io
     ```
 3. Open the `index.html` file in your web browser.
 
