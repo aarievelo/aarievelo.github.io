@@ -1,67 +1,97 @@
-# Arievelo arts and poems
-
-Welcome to my personal website! This site is a space where I share my art and poems, and where the community can contribute their own poems.
-
-## Purpose
-
-- **Blog to Share Poems**: I regularly post my own poems in the "Poems" section.
-- **Promote My Art**: I showcase my artwork in the "Art" section.
-- **Community Engagement**: Visitors can submit their own poems through the "Send Your Poem" feature.
-
-## Sections
-
-- **About Me**: Learn more about me and my journey as an artist and poet.
-- **Art**: A gallery of my artwork.
-- **Poems**: A collection of my poems.
-- **Send Your Poem**: A feature where you can submit your own poems to be featured on the site.
-
-## Design
-
-The website has a modern, slightly maximalist aesthetic with the following design elements:
-
-- **Colors**:
-  - Red: `#D13D47`
-  - Wine: `#A21923`
-  - Blue: `#202C61`
-  - Green: `#B6CF7B`
-  - Yellowish Green: `#F4F3DD`
-- **Fonts**: 
-  - Headers: Anton
-  - Subheaders: Montaser Arabic
-  - Body: Times New Roman
-
-## How to Use
-
-### Viewing the Website
-
-You can visit the website at: [https://aarievelo.github.io](https://aarievelo.github.io)
-
-### Setting Up Locally
-
-If you want to run the website locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/aarievelo/aarievelo.github.io.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd aarievelo.github.io
-    ```
-3. Open the `index.html` file in your web browser.
-
-### Contact
-
-Feel free to reach out to me via email or follow me on Instagram:
-- **Email**: [aarievelo@gmail.com](mailto:aarievelo@gmail.com)
-- **Instagram**: [@arievelo_](https://instagram.com/arievelo_)
-
-## Contributing
-
-If you have any poems you'd like to share, please use the "Send Your Poem" feature on the website.
-
-Thank you for visiting!
-
----
-
-© 2024 Arievelo. All rights reserved.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIEVELO ART AND POEMS</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F3DD;
+            color: #202C61;
+        }
+        header {
+            background-color: #D13D47;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Anton', sans-serif;
+        }
+        nav {
+            background-color: #A21923;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .art, .poems, .send-poem {
+            margin: 20px 0;
+        }
+        .about h2, .art h2, .poems h2, .send-poem h2 {
+            color: #A21923;
+            font-family: 'Montaser Arabic', sans-serif;
+        }
+        .art img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #202C61;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arie's Art and Poems</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#art">Art</a>
+        <a href="#poems">Poems</a>
+        <a href="#send-poem">Send Your Poem</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Arie, a young artist wishing to create a space to share my art, poems, and create a community.</p>
+    </section>
+    <section id="art" class="art">
+        <h2>Art</h2>
+        <p>Here is where my art will be showcased. Check back soon for updates!</p>
+        <!-- You can add images like this -->
+        <!-- <img src="path/to/your/art1.jpg" alt="Art 1"> -->
+    </section>
+    <section id="poems" class="poems">
+        <h2>Poems</h2>
+        <p>This section will feature my poems. Stay tuned!</p>
+    </section>
+    <section id="send-poem" class="send-poem">
+        <h2>Send Your Poem</h2>
+        <form>
+            <label for="poem-title">Title:</label><br>
+            <input type="text" id="poem-title" name="poem-title"><br>
+            <label for="poem-content">Your Poem:</label><br>
+            <textarea id="poem-content" name="poem-content" rows="10" cols="30"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>Contact me at <a href="mailto:aarievelo@gmail.com">aarievelo@gmail.com</a></p>
+        <p>Follow me on Instagram: <a href="https://instagram.com/arievelo_" target="_blank">@arievelo_</a></p>
+    </footer>
+</body>
+</html>
